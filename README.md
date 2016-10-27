@@ -49,6 +49,8 @@ You can buy such a display here:
 
 You also need to get an API key for the Wunderground data: https://www.wunderground.com/
 
+## Wemos D1R2
+![Wemos](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/wemos.jpg)
 
 ## Wiring for Wemos D1R2
 See settings.h for pin configurations
