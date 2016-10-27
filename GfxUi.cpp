@@ -41,7 +41,9 @@ void GfxUi::drawString(int x, int y, char *text) {
       break;
   }
   if (_textColor != _backgroundColor) {
-    _tft->fillRect(x1, y - h -1, w + 1, h + 1, _backgroundColor);
+   // _tft->fillRect(x1, y - h -1, w + 1, h + 1, _backgroundColor);
+   _tft->fillRect(x1, y-h, w+2, h+4, _backgroundColor);  // Refinement to prevent text artifacts
+   
   }
   _tft->setCursor(x1, y);
   _tft->print(text);

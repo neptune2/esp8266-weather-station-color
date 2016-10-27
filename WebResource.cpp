@@ -29,12 +29,15 @@ void WebResource::downloadFile(String url, String filename) {
 }
 
 void WebResource::downloadFile(String url, String filename, ProgressCallback progressCallback) {
-    Serial.println("Downloading " + url + " and saving as " + filename);
+    
 
     if (SPIFFS.exists(filename) == true) {
-      Serial.println("File already exists. Skipping");
+      // Serial.println("File already exists. Skipping");
       return;
     }
+
+    Serial.println("Downloading " + url + " and saving as " + filename);
+    
     // wait for WiFi connection
     if((_wifiMulti.run() == WL_CONNECTED)) {
         HTTPClient http;
