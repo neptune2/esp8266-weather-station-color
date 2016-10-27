@@ -1,10 +1,11 @@
 # esp8266-weather-station-color-DST
 
-DST and other customizations of Squix78 ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
+Daylight Saving Time and other customizations of Squix78 ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
 
 | Zurich | Boston | Sydney |
 |:------:|:------:|:------:|
 | ![Zurich](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
+
 | 7-Seg silhoutte |
 |:---------------:|
 | ![silhoutte](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/7seg_silhoutte.jpg) |
@@ -41,7 +42,7 @@ You can buy such a display here:
 * [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library) or through Library Manager
 * [WifiManager](https://github.com/tzapu/WiFiManager)
 
-## Additional librart for automatic Daylight Saving Time adjust
+### Additional library for automatic Daylight Saving Time adjust
 * [simpleDSTadjust](https://github.com/neptune2/simpleDSTadjust)
 
 You also need to get an API key for the Wunderground data: https://www.wunderground.com/
