@@ -13,7 +13,7 @@ Uses ILI9341 TFT 240x320 display with SPI interface
 
 ## Specific customizations include:
 
-* Replaced TimeClient with built-in ESP8266 NTP client and timekeeping
+* Replaced TimeClient with built-in ESP8266 NTP client and timekeeping (lwip/sntp Espressif sdk library)
  * Selectable NTP servers in settings.h
 * Added automatic Daylight Saving Time adjust using simpleDSTadjust library
  * https://github.com/neptune2/simpleDSTadjust
