@@ -6,9 +6,7 @@ Customizations of ESP8266 Weather Station in Color using ILI9341 TFT 240x320 dis
 
 | Zurich | Boston | Sydney |
 |:------:|:------:|:------:|
-| ![Zurich](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich.jpg)
-| ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston.jpg)
-| ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
+| ![Zurich](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
 ![silhoutte](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/7seg_silhoutte.jpg)
 
 ## Specific customizations include:
