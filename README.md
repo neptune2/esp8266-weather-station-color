@@ -1,13 +1,13 @@
 # esp8266-weather-station-color-DST
 
-Customizations of ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
-
-## Customizations by Neptune
+DST and other customizations of Squix78 ESP8266 Weather Station in Color using ILI9341 TFT 240x320 display
 
 | Zurich | Boston | Sydney |
 |:------:|:------:|:------:|
 | ![Zurich](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
-![silhoutte](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/7seg_silhoutte.jpg)
+| 7-Seg silhoutte |
+|:---------------:|
+| ![silhoutte](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/7seg_silhoutte.jpg) |
 
 ## Specific customizations include:
 
@@ -40,11 +40,14 @@ You can buy such a display here:
 * [Adafruit ILI9341](https://github.com/adafruit/Adafruit_ILI9341) or through Library Manager
 * [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library) or through Library Manager
 * [WifiManager](https://github.com/tzapu/WiFiManager)
+
+## Additional librart for automatic Daylight Saving Time adjust
 * [simpleDSTadjust](https://github.com/neptune2/simpleDSTadjust)
 
 You also need to get an API key for the Wunderground data: https://www.wunderground.com/
 
 ## Wiring for Wemos D1R2
+See settings.h for pin configurations
 
 | ILI9341       | Wemos D1R2    |
 | ------------- |:-------------:| 
