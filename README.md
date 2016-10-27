@@ -1,6 +1,6 @@
 # esp8266-weather-station-color-DST
 
-Daylight Saving Time and other customizations of Squix78 ESP8266 Weather Station in Color
+Daylight Saving Time and other customizations of Squix78 ESP8266 Weather Station in Color.
 Uses ILI9341 TFT 240x320 display with SPI interface
 
 | Zurich | Boston | Sydney |
@@ -13,19 +13,20 @@ Uses ILI9341 TFT 240x320 display with SPI interface
 
 ## Specific customizations include:
 
-* Changed TimeClient to built-in ESP8266 NTP client
+* Replaced TimeClient with built-in ESP8266 NTP client and timekeeping
  * Selectable NTP servers in settings.h
-* Added auto Daylight Saving Time adjust using simpleDSTadjust library
+* Added automatic Daylight Saving Time adjust using simpleDSTadjust library
  * https://github.com/neptune2/simpleDSTadjust
  * DST rules and timezone settings customizable in settings.h
-* Special version of ArialRoundedMtBold_36 with Degree symbol
- * added degree symbol to temperature display
+ * See https://www.timeanddate.com/time/change/ for DST rules
+* Special version of ArialRoundedMtBold_36 with Degree symbol added
+ * Used degree symbol in temperature display
 * Changed Clock to retro 7-segment look with optional silhoutte background
  * used DSEG7ClassicBold_44 font (from http://www.keshikan.net/fonts-e.html)
-* Added Blinking colon to clock - 1 sec on , 1 sec off
+* Added Blinking colon to clock. 1 sec on , 1 sec off
 * Added choice of 24 hour or 12 hour clock
 * Slight adjustment to various fields (to fit 7-seg clock)
-* various small fixes
+* various small fixes and bug workarounds
 
 
 ## Hardware Requirements
