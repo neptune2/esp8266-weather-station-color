@@ -33,7 +33,6 @@ Uses ILI9341 TFT 240x320 display with SPI interface
 
 This code is made for an 240x320 65K ILI9341 display with code running on an ESP8266.
 You can buy such a display here: 
-
 [http://www.banggood.com/2_2-Inch-Serial-TFT-SPI-Screen-p-912854.html](http://www.banggood.com/2_2-Inch-Serial-TFT-SPI-LCD-Screen-Module-HD-240-x-320-5110-Compatible-p-912854.html?p=6R31122484684201508S)
 
 ## Software Requirements/ Libraries
@@ -49,10 +48,9 @@ You can buy such a display here:
 
 You also need to get an API key for the Wunderground data: https://www.wunderground.com/
 
-## Wemos D1R2
+## Wemos D1R2 Wiring
 ![Wemos](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/wemos.jpg)
 
-## Wiring for Wemos D1R2
 See settings.h for pin configurations
 
 | ILI9341       | Wemos D1R2    |
