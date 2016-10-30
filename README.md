@@ -8,7 +8,7 @@ Uses ILI9341 TFT 240x320 display with SPI interface
 | ![Zurich CEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CEST.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EDT.jpg) | ![Sydney AEDT](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney_AEDT.jpg) |
 
 | Zurich Standard time | Boston Standard Time | Sydney Standard Time |
-|:------:|:------:|
+|:------:|:------:|:------:|
 | ![Zurich CET](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CET.jpg) | ![Boston EST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EST.jpg) | ![Sydney AEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney_AEST.jpg) |
 
 | 7-Seg silhoutte |
