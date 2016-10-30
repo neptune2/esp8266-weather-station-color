@@ -3,13 +3,13 @@
 Daylight Saving Time and other customizations of Squix78 ESP8266 Weather Station in Color.
 Uses ILI9341 TFT 240x320 display with SPI interface
 
-| Zurich Summer Time | Zurich Standard time |
-|:------:|:------:|
-| ![Zurich CEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CEST.jpg) | ![Zurich CET](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CET.jpg) | 
+| Zurich Summer Time | Boston Daylight Saving Time | Sydney Daylight Saving Time |
+|:------:|:------:|:------:|
+| ![Zurich CEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CEST.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EDT.jpg) | ![Sydney AEDT](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney_AEDT.jpg) |
 
-| Boston EDT | Sydney |
+| Zurich Standard time | Boston Standard Time | Sydney Standard Time |
 |:------:|:------:|
-| ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EDT.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
+| ![Zurich CET](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CET.jpg) | ![Boston EST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EST.jpg) | ![Sydney AEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney_AEST.jpg) |
 
 | 7-Seg silhoutte |
 |:---------------:|
@@ -53,7 +53,7 @@ You can buy such a display here:
 You also need to get an API key for the Wunderground data: https://www.wunderground.com/
 
 ## Wemos D1R2 Wiring
-![Wemos](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/wemos.jpg)
+![Wemos](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/wemos_color_weatherstation.jpg)
 
 See settings.h for pin configurations
 
