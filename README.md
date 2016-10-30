@@ -3,9 +3,13 @@
 Daylight Saving Time and other customizations of Squix78 ESP8266 Weather Station in Color.
 Uses ILI9341 TFT 240x320 display with SPI interface
 
-| Zurich | Boston | Sydney |
-|:------:|:------:|:------:|
-| ![Zurich](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich.jpg) | ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
+| Zurich Summer Time | Zurich Standard time |
+|:------:|:------:|
+| ![Zurich CEST](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CEST.jpg) | ![Zurich CET](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Zurich_CET.jpg) | 
+
+| Boston EDT | Sydney |
+|:------:|:------:|
+| ![Boston](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Boston_EDT.jpg) | ![Sydney](https://github.com/neptune2/esp8266-weather-station-color-DST/raw/master/resources/Sydney.jpg) |
 
 | 7-Seg silhoutte |
 |:---------------:|
